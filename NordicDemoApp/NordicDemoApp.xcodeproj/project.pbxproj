@@ -18,6 +18,7 @@
 		10E2205228909A5D00A95563 /* Address+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2205128909A5D00A95563 /* Address+String.swift */; };
 		10E2205428909B6E00A95563 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2205328909B6E00A95563 /* NetworkViewController.swift */; };
 		10E220562890B38A00A95563 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E220552890B38A00A95563 /* UIViewController+Alert.swift */; };
+		10E2205828910CD900A95563 /* UITableView+EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2205728910CD900A95563 /* UITableView+EmptyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		10E2205128909A5D00A95563 /* Address+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+String.swift"; sourceTree = "<group>"; };
 		10E2205328909B6E00A95563 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		10E220552890B38A00A95563 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		10E2205728910CD900A95563 /* UITableView+EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+EmptyView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				10E2205128909A5D00A95563 /* Address+String.swift */,
 				10E220552890B38A00A95563 /* UIViewController+Alert.swift */,
+				10E2205728910CD900A95563 /* UITableView+EmptyView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				10E2205428909B6E00A95563 /* NetworkViewController.swift in Sources */,
 				10E220322890566400A95563 /* AppDelegate.swift in Sources */,
 				10E2204F2890977F00A95563 /* NodeViewCell.swift in Sources */,
+				10E2205828910CD900A95563 /* UITableView+EmptyView.swift in Sources */,
 				10E2205228909A5D00A95563 /* Address+String.swift in Sources */,
 				10E220342890566400A95563 /* SceneDelegate.swift in Sources */,
 				10E220562890B38A00A95563 /* UIViewController+Alert.swift in Sources */,

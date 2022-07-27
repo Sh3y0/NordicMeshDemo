@@ -118,3 +118,38 @@ class NetworkViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
+
+private extension NetworkViewController {
+    
+    func reloadData() {
+        sections.removeAll()
+        if let network = MeshNetworkManager.instance.meshNetwork {
+            let notConfiguredNodes = network.nodes.filter({ !$0.isConfigComplete && !$0.isProvisioner })
+            let configuredNodes    = network.nodes.filter({ $0.isConfigComplete && !$0.isProvisioner })
+            let provisionersNodes  = network.nodes.filter({ $0.isProvisioner && !$0.isLocalProvisioner })
+            
+            if !notConfiguredNodes.isEmpty {
+                sections.append(Section(type: .notConfiguredNodes, nodes: notConfiguredNodes))
+            }
+            if !configuredNodes.isEmpty {
+                sections.append(Section(type: .configuredNodes, nodes: configuredNodes))
+            }
+            if !provisionersNodes.isEmpty {
+                sections.append(Section(type: .provisionersNodes, nodes: provisionersNodes))
+            }
+            if let thisProvisionerNode = network.localProvisioner?.node {
+                sections.append(Section(type: .thisProvisioner, nodes: [thisProvisionerNode]))
+            }
+        }
+        tableView.reloadData()
+        
+        if sections.isEmpty {
+            tableView.showEmptyView()
+        } else {
+            tableView.hideEmptyView()
+        }
+    }
+    
+}
+
+
