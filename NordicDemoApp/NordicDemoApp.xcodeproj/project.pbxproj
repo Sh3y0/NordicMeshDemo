@@ -39,6 +39,9 @@
 		10E22082289117DD00A95563 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22076289117DD00A95563 /* NetworkConnection.swift */; };
 		10E22083289117DD00A95563 /* GenericOnOffClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22077289117DD00A95563 /* GenericOnOffClientDelegate.swift */; };
 		10E22085289118E400A95563 /* ModelIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22084289118E400A95563 /* ModelIdentifiers.swift */; };
+		10E2208728911C3600A95563 /* ScannerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2208628911C3600A95563 /* ScannerTableViewController.swift */; };
+		10E2208928911C7100A95563 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2208828911C7100A95563 /* DeviceCell.swift */; };
+		10E2208B28911CCE00A95563 /* ProvisioningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2208A28911CCE00A95563 /* ProvisioningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +78,9 @@
 		10E22076289117DD00A95563 /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
 		10E22077289117DD00A95563 /* GenericOnOffClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericOnOffClientDelegate.swift; sourceTree = "<group>"; };
 		10E22084289118E400A95563 /* ModelIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelIdentifiers.swift; sourceTree = "<group>"; };
+		10E2208628911C3600A95563 /* ScannerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerTableViewController.swift; sourceTree = "<group>"; };
+		10E2208828911C7100A95563 /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		10E2208A28911CCE00A95563 /* ProvisioningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +118,6 @@
 				10E2205028909A3800A95563 /* Utils */,
 				10E2204C2890974500A95563 /* ViewContrrollers */,
 				10E2204B2890972300A95563 /* Models */,
-				10E220472890633000A95563 /* MeshNetwork */,
 				10E220312890566400A95563 /* AppDelegate.swift */,
 				10E220332890566400A95563 /* SceneDelegate.swift */,
 				10E220352890566400A95563 /* ViewController.swift */,
@@ -122,13 +127,6 @@
 				10E2203F2890567900A95563 /* Info.plist */,
 			);
 			path = NordicDemoApp;
-			sourceTree = "<group>";
-		};
-		10E220472890633000A95563 /* MeshNetwork */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MeshNetwork;
 			sourceTree = "<group>";
 		};
 		10E2204B2890972300A95563 /* Models */ = {
@@ -172,6 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				10E2205A28910E6300A95563 /* ProvisioningViewDelegate.swift */,
+				10E2208628911C3600A95563 /* ScannerTableViewController.swift */,
+				10E2208828911C7100A95563 /* DeviceCell.swift */,
+				10E2208A28911CCE00A95563 /* ProvisioningViewController.swift */,
 			);
 			path = Provisioning;
 			sourceTree = "<group>";
@@ -302,7 +303,9 @@
 				10E22062289110C800A95563 /* NetworkConnection.swift in Sources */,
 				10E22078289117DD00A95563 /* GenericLevelClientDelegate.swift in Sources */,
 				10E2205F28910EFA00A95563 /* EditProvisionerViewController.swift in Sources */,
+				10E2208728911C3600A95563 /* ScannerTableViewController.swift in Sources */,
 				10E2207A289117DD00A95563 /* SceneServerDelegate.swift in Sources */,
+				10E2208B28911CCE00A95563 /* ProvisioningViewController.swift in Sources */,
 				10E22068289113E500A95563 /* SceneSetupServerDelegate.swift in Sources */,
 				10E2207F289117DD00A95563 /* GenericDefaultTransitionTimeServerDelegate.swift in Sources */,
 				10E2205428909B6E00A95563 /* NetworkViewController.swift in Sources */,
@@ -315,6 +318,7 @@
 				10E2207E289117DD00A95563 /* SceneSetupServerDelegate.swift in Sources */,
 				10E2205B28910E6300A95563 /* ProvisioningViewDelegate.swift in Sources */,
 				10E2204F2890977F00A95563 /* NodeViewCell.swift in Sources */,
+				10E2208928911C7100A95563 /* DeviceCell.swift in Sources */,
 				10E2205828910CD900A95563 /* UITableView+EmptyView.swift in Sources */,
 				10E22081289117DD00A95563 /* GenericOnOffServerDelegate.swift in Sources */,
 				10E2205228909A5D00A95563 /* Address+String.swift in Sources */,
