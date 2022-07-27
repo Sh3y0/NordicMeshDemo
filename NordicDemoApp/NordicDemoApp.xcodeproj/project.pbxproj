@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E220322890566400A95563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E220312890566400A95563 /* AppDelegate.swift */; };
+		10E220342890566400A95563 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E220332890566400A95563 /* SceneDelegate.swift */; };
+		10E220362890566400A95563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E220352890566400A95563 /* ViewController.swift */; };
+		10E220392890566400A95563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E220372890566400A95563 /* Main.storyboard */; };
+		10E2203B2890567900A95563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E2203A2890567900A95563 /* Assets.xcassets */; };
+		10E2203E2890567900A95563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E2203C2890567900A95563 /* LaunchScreen.storyboard */; };
+		10E2204A2890676000A95563 /* NordicMesh in Frameworks */ = {isa = PBXBuildFile; productRef = 10E220492890676000A95563 /* NordicMesh */; };
+		10E2204F2890977F00A95563 /* NodeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2204E2890977F00A95563 /* NodeViewCell.swift */; };
+		10E2205228909A5D00A95563 /* Address+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2205128909A5D00A95563 /* Address+String.swift */; };
+		10E2205428909B6E00A95563 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2205328909B6E00A95563 /* NetworkViewController.swift */; };
+		10E220562890B38A00A95563 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E220552890B38A00A95563 /* UIViewController+Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10E2202E2890566400A95563 /* NordicDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NordicDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E220312890566400A95563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10E220332890566400A95563 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10E220352890566400A95563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10E220382890566400A95563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10E2203A2890567900A95563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10E2203D2890567900A95563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10E2203F2890567900A95563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E2204E2890977F00A95563 /* NodeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeViewCell.swift; sourceTree = "<group>"; };
+		10E2205128909A5D00A95563 /* Address+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+String.swift"; sourceTree = "<group>"; };
+		10E2205328909B6E00A95563 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		10E220552890B38A00A95563 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10E2202B2890566400A95563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E2204A2890676000A95563 /* NordicMesh in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10E220252890566400A95563 = {
+			isa = PBXGroup;
+			children = (
+				10E220302890566400A95563 /* NordicDemoApp */,
+				10E2202F2890566400A95563 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10E2202F2890566400A95563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E2202E2890566400A95563 /* NordicDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10E220302890566400A95563 /* NordicDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				10E2205028909A3800A95563 /* Utils */,
+				10E2204C2890974500A95563 /* ViewContrrollers */,
+				10E2204B2890972300A95563 /* Models */,
+				10E220472890633000A95563 /* MeshNetwork */,
+				10E220312890566400A95563 /* AppDelegate.swift */,
+				10E220332890566400A95563 /* SceneDelegate.swift */,
+				10E220352890566400A95563 /* ViewController.swift */,
+				10E220372890566400A95563 /* Main.storyboard */,
+				10E2203A2890567900A95563 /* Assets.xcassets */,
+				10E2203C2890567900A95563 /* LaunchScreen.storyboard */,
+				10E2203F2890567900A95563 /* Info.plist */,
+			);
+			path = NordicDemoApp;
+			sourceTree = "<group>";
+		};
+		10E220472890633000A95563 /* MeshNetwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MeshNetwork;
+			sourceTree = "<group>";
+		};
+		10E2204B2890972300A95563 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		10E2204C2890974500A95563 /* ViewContrrollers */ = {
+			isa = PBXGroup;
+			children = (
+				10E2204D2890975C00A95563 /* Network */,
+			);
+			path = ViewContrrollers;
+			sourceTree = "<group>";
+		};
+		10E2204D2890975C00A95563 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				10E2204E2890977F00A95563 /* NodeViewCell.swift */,
+				10E2205328909B6E00A95563 /* NetworkViewController.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		10E2205028909A3800A95563 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				10E2205128909A5D00A95563 /* Address+String.swift */,
+				10E220552890B38A00A95563 /* UIViewController+Alert.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E2202D2890566400A95563 /* NordicDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10E220422890567900A95563 /* Build configuration list for PBXNativeTarget "NordicDemoApp" */;
+			buildPhases = (
+				10E2202A2890566400A95563 /* Sources */,
+				10E2202B2890566400A95563 /* Frameworks */,
+				10E2202C2890566400A95563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NordicDemoApp;
+			packageProductDependencies = (
+				10E220492890676000A95563 /* NordicMesh */,
+			);
+			productName = NordicDemoApp;
+			productReference = 10E2202E2890566400A95563 /* NordicDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10E220262890566400A95563 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					10E2202D2890566400A95563 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 10E220292890566400A95563 /* Build configuration list for PBXProject "NordicDemoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10E220252890566400A95563;
+			packageReferences = (
+				10E220482890676000A95563 /* XCRemoteSwiftPackageReference "IOS-nRF-Mesh-Library" */,
+			);
+			productRefGroup = 10E2202F2890566400A95563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E2202D2890566400A95563 /* NordicDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E2202C2890566400A95563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E2203E2890567900A95563 /* LaunchScreen.storyboard in Resources */,
+				10E2203B2890567900A95563 /* Assets.xcassets in Resources */,
+				10E220392890566400A95563 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E2202A2890566400A95563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E220362890566400A95563 /* ViewController.swift in Sources */,
+				10E2205428909B6E00A95563 /* NetworkViewController.swift in Sources */,
+				10E220322890566400A95563 /* AppDelegate.swift in Sources */,
+				10E2204F2890977F00A95563 /* NodeViewCell.swift in Sources */,
+				10E2205228909A5D00A95563 /* Address+String.swift in Sources */,
+				10E220342890566400A95563 /* SceneDelegate.swift in Sources */,
+				10E220562890B38A00A95563 /* UIViewController+Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10E220372890566400A95563 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E220382890566400A95563 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10E2203C2890567900A95563 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10E2203D2890567900A95563 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10E220402890567900A95563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10E220412890567900A95563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10E220432890567900A95563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA87Y7T643;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NordicDemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravn.NordicDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10E220442890567900A95563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA87Y7T643;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NordicDemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravn.NordicDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10E220292890566400A95563 /* Build configuration list for PBXProject "NordicDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E220402890567900A95563 /* Debug */,
+				10E220412890567900A95563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10E220422890567900A95563 /* Build configuration list for PBXNativeTarget "NordicDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E220432890567900A95563 /* Debug */,
+				10E220442890567900A95563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10E220482890676000A95563 /* XCRemoteSwiftPackageReference "IOS-nRF-Mesh-Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NordicSemiconductor/IOS-nRF-Mesh-Library";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10E220492890676000A95563 /* NordicMesh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10E220482890676000A95563 /* XCRemoteSwiftPackageReference "IOS-nRF-Mesh-Library" */;
+			productName = NordicMesh;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 10E220262890566400A95563 /* Project object */;
+}
