@@ -19,6 +19,26 @@
 		10E2205428909B6E00A95563 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2205328909B6E00A95563 /* NetworkViewController.swift */; };
 		10E220562890B38A00A95563 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E220552890B38A00A95563 /* UIViewController+Alert.swift */; };
 		10E2205828910CD900A95563 /* UITableView+EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2205728910CD900A95563 /* UITableView+EmptyView.swift */; };
+		10E2205B28910E6300A95563 /* ProvisioningViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2205A28910E6300A95563 /* ProvisioningViewDelegate.swift */; };
+		10E2205F28910EFA00A95563 /* EditProvisionerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2205E28910EFA00A95563 /* EditProvisionerViewController.swift */; };
+		10E22062289110C800A95563 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22061289110C800A95563 /* NetworkConnection.swift */; };
+		10E22064289112C900A95563 /* GenericDefaultTransitionTimeServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22063289112C900A95563 /* GenericDefaultTransitionTimeServerDelegate.swift */; };
+		10E220662891137100A95563 /* SceneServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E220652891137100A95563 /* SceneServerDelegate.swift */; };
+		10E22068289113E500A95563 /* SceneSetupServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22067289113E500A95563 /* SceneSetupServerDelegate.swift */; };
+		10E2206B2891156200A95563 /* SensorClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2206A2891156200A95563 /* SensorClientDelegate.swift */; };
+		10E22078289117DD00A95563 /* GenericLevelClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2206C289117D900A95563 /* GenericLevelClientDelegate.swift */; };
+		10E22079289117DD00A95563 /* GenericState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2206D289117D900A95563 /* GenericState.swift */; };
+		10E2207A289117DD00A95563 /* SceneServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2206E289117DA00A95563 /* SceneServerDelegate.swift */; };
+		10E2207B289117DD00A95563 /* GenericDefaultTransitionTimeClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2206F289117DA00A95563 /* GenericDefaultTransitionTimeClientDelegate.swift */; };
+		10E2207C289117DD00A95563 /* GenericPowerOnOffClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22070289117DB00A95563 /* GenericPowerOnOffClientDelegate.swift */; };
+		10E2207D289117DD00A95563 /* SensorClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22071289117DB00A95563 /* SensorClientDelegate.swift */; };
+		10E2207E289117DD00A95563 /* SceneSetupServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22072289117DC00A95563 /* SceneSetupServerDelegate.swift */; };
+		10E2207F289117DD00A95563 /* GenericDefaultTransitionTimeServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22073289117DC00A95563 /* GenericDefaultTransitionTimeServerDelegate.swift */; };
+		10E22080289117DD00A95563 /* GenericLevelServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22074289117DC00A95563 /* GenericLevelServerDelegate.swift */; };
+		10E22081289117DD00A95563 /* GenericOnOffServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22075289117DD00A95563 /* GenericOnOffServerDelegate.swift */; };
+		10E22082289117DD00A95563 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22076289117DD00A95563 /* NetworkConnection.swift */; };
+		10E22083289117DD00A95563 /* GenericOnOffClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22077289117DD00A95563 /* GenericOnOffClientDelegate.swift */; };
+		10E22085289118E400A95563 /* ModelIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E22084289118E400A95563 /* ModelIdentifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +55,26 @@
 		10E2205328909B6E00A95563 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		10E220552890B38A00A95563 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		10E2205728910CD900A95563 /* UITableView+EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+EmptyView.swift"; sourceTree = "<group>"; };
+		10E2205A28910E6300A95563 /* ProvisioningViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningViewDelegate.swift; sourceTree = "<group>"; };
+		10E2205E28910EFA00A95563 /* EditProvisionerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProvisionerViewController.swift; sourceTree = "<group>"; };
+		10E22061289110C800A95563 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		10E22063289112C900A95563 /* GenericDefaultTransitionTimeServerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDefaultTransitionTimeServerDelegate.swift; sourceTree = "<group>"; };
+		10E220652891137100A95563 /* SceneServerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneServerDelegate.swift; sourceTree = "<group>"; };
+		10E22067289113E500A95563 /* SceneSetupServerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneSetupServerDelegate.swift; sourceTree = "<group>"; };
+		10E2206A2891156200A95563 /* SensorClientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorClientDelegate.swift; sourceTree = "<group>"; };
+		10E2206C289117D900A95563 /* GenericLevelClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericLevelClientDelegate.swift; sourceTree = "<group>"; };
+		10E2206D289117D900A95563 /* GenericState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericState.swift; sourceTree = "<group>"; };
+		10E2206E289117DA00A95563 /* SceneServerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneServerDelegate.swift; sourceTree = "<group>"; };
+		10E2206F289117DA00A95563 /* GenericDefaultTransitionTimeClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericDefaultTransitionTimeClientDelegate.swift; sourceTree = "<group>"; };
+		10E22070289117DB00A95563 /* GenericPowerOnOffClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericPowerOnOffClientDelegate.swift; sourceTree = "<group>"; };
+		10E22071289117DB00A95563 /* SensorClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorClientDelegate.swift; sourceTree = "<group>"; };
+		10E22072289117DC00A95563 /* SceneSetupServerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneSetupServerDelegate.swift; sourceTree = "<group>"; };
+		10E22073289117DC00A95563 /* GenericDefaultTransitionTimeServerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericDefaultTransitionTimeServerDelegate.swift; sourceTree = "<group>"; };
+		10E22074289117DC00A95563 /* GenericLevelServerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericLevelServerDelegate.swift; sourceTree = "<group>"; };
+		10E22075289117DD00A95563 /* GenericOnOffServerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericOnOffServerDelegate.swift; sourceTree = "<group>"; };
+		10E22076289117DD00A95563 /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		10E22077289117DD00A95563 /* GenericOnOffClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericOnOffClientDelegate.swift; sourceTree = "<group>"; };
+		10E22084289118E400A95563 /* ModelIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelIdentifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +108,7 @@
 		10E220302890566400A95563 /* NordicDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				10E220602891108400A95563 /* Mesh Network */,
 				10E2205028909A3800A95563 /* Utils */,
 				10E2204C2890974500A95563 /* ViewContrrollers */,
 				10E2204B2890972300A95563 /* Models */,
@@ -100,6 +141,7 @@
 		10E2204C2890974500A95563 /* ViewContrrollers */ = {
 			isa = PBXGroup;
 			children = (
+				10E2205C28910E9100A95563 /* Settings */,
 				10E2204D2890975C00A95563 /* Network */,
 			);
 			path = ViewContrrollers;
@@ -108,6 +150,7 @@
 		10E2204D2890975C00A95563 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				10E2205928910E3400A95563 /* Provisioning */,
 				10E2204E2890977F00A95563 /* NodeViewCell.swift */,
 				10E2205328909B6E00A95563 /* NetworkViewController.swift */,
 			);
@@ -120,8 +163,57 @@
 				10E2205128909A5D00A95563 /* Address+String.swift */,
 				10E220552890B38A00A95563 /* UIViewController+Alert.swift */,
 				10E2205728910CD900A95563 /* UITableView+EmptyView.swift */,
+				10E22084289118E400A95563 /* ModelIdentifiers.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		10E2205928910E3400A95563 /* Provisioning */ = {
+			isa = PBXGroup;
+			children = (
+				10E2205A28910E6300A95563 /* ProvisioningViewDelegate.swift */,
+			);
+			path = Provisioning;
+			sourceTree = "<group>";
+		};
+		10E2205C28910E9100A95563 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				10E2205D28910EBF00A95563 /* Provisioning */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		10E2205D28910EBF00A95563 /* Provisioning */ = {
+			isa = PBXGroup;
+			children = (
+				10E2205E28910EFA00A95563 /* EditProvisionerViewController.swift */,
+			);
+			path = Provisioning;
+			sourceTree = "<group>";
+		};
+		10E220602891108400A95563 /* Mesh Network */ = {
+			isa = PBXGroup;
+			children = (
+				10E2206F289117DA00A95563 /* GenericDefaultTransitionTimeClientDelegate.swift */,
+				10E22073289117DC00A95563 /* GenericDefaultTransitionTimeServerDelegate.swift */,
+				10E2206C289117D900A95563 /* GenericLevelClientDelegate.swift */,
+				10E22074289117DC00A95563 /* GenericLevelServerDelegate.swift */,
+				10E22077289117DD00A95563 /* GenericOnOffClientDelegate.swift */,
+				10E22075289117DD00A95563 /* GenericOnOffServerDelegate.swift */,
+				10E22070289117DB00A95563 /* GenericPowerOnOffClientDelegate.swift */,
+				10E2206D289117D900A95563 /* GenericState.swift */,
+				10E22076289117DD00A95563 /* NetworkConnection.swift */,
+				10E2206E289117DA00A95563 /* SceneServerDelegate.swift */,
+				10E22072289117DC00A95563 /* SceneSetupServerDelegate.swift */,
+				10E22071289117DB00A95563 /* SensorClientDelegate.swift */,
+				10E22061289110C800A95563 /* NetworkConnection.swift */,
+				10E22063289112C900A95563 /* GenericDefaultTransitionTimeServerDelegate.swift */,
+				10E220652891137100A95563 /* SceneServerDelegate.swift */,
+				10E22067289113E500A95563 /* SceneSetupServerDelegate.swift */,
+				10E2206A2891156200A95563 /* SensorClientDelegate.swift */,
+			);
+			path = "Mesh Network";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,12 +293,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E22085289118E400A95563 /* ModelIdentifiers.swift in Sources */,
+				10E2206B2891156200A95563 /* SensorClientDelegate.swift in Sources */,
 				10E220362890566400A95563 /* ViewController.swift in Sources */,
+				10E220662891137100A95563 /* SceneServerDelegate.swift in Sources */,
+				10E2207D289117DD00A95563 /* SensorClientDelegate.swift in Sources */,
+				10E22080289117DD00A95563 /* GenericLevelServerDelegate.swift in Sources */,
+				10E22062289110C800A95563 /* NetworkConnection.swift in Sources */,
+				10E22078289117DD00A95563 /* GenericLevelClientDelegate.swift in Sources */,
+				10E2205F28910EFA00A95563 /* EditProvisionerViewController.swift in Sources */,
+				10E2207A289117DD00A95563 /* SceneServerDelegate.swift in Sources */,
+				10E22068289113E500A95563 /* SceneSetupServerDelegate.swift in Sources */,
+				10E2207F289117DD00A95563 /* GenericDefaultTransitionTimeServerDelegate.swift in Sources */,
 				10E2205428909B6E00A95563 /* NetworkViewController.swift in Sources */,
+				10E22082289117DD00A95563 /* NetworkConnection.swift in Sources */,
 				10E220322890566400A95563 /* AppDelegate.swift in Sources */,
+				10E22079289117DD00A95563 /* GenericState.swift in Sources */,
+				10E2207B289117DD00A95563 /* GenericDefaultTransitionTimeClientDelegate.swift in Sources */,
+				10E2207C289117DD00A95563 /* GenericPowerOnOffClientDelegate.swift in Sources */,
+				10E22083289117DD00A95563 /* GenericOnOffClientDelegate.swift in Sources */,
+				10E2207E289117DD00A95563 /* SceneSetupServerDelegate.swift in Sources */,
+				10E2205B28910E6300A95563 /* ProvisioningViewDelegate.swift in Sources */,
 				10E2204F2890977F00A95563 /* NodeViewCell.swift in Sources */,
 				10E2205828910CD900A95563 /* UITableView+EmptyView.swift in Sources */,
+				10E22081289117DD00A95563 /* GenericOnOffServerDelegate.swift in Sources */,
 				10E2205228909A5D00A95563 /* Address+String.swift in Sources */,
+				10E22064289112C900A95563 /* GenericDefaultTransitionTimeServerDelegate.swift in Sources */,
 				10E220342890566400A95563 /* SceneDelegate.swift in Sources */,
 				10E220562890B38A00A95563 /* UIViewController+Alert.swift in Sources */,
 			);

@@ -152,4 +152,43 @@ private extension NetworkViewController {
     
 }
 
+extension NetworkViewController: ProvisioningViewDelegate {
+    
+    func provisionerDidProvisionNewDevice(_ node: Node) {
+        performSegue(withIdentifier: "configure", sender: node)
+    }
+    
+}
 
+extension NetworkViewController: EditProvisionerDelegate {
+    
+    func provisionerWasAdded(_ provisioner: Provisioner) {
+        // A new Provisioner was added. Continue wit provisioning.
+        performSegue(withIdentifier: "provision", sender: nil)
+    }
+    
+    func provisionerWasModified(_ provisioner: Provisioner) {
+        // Not used.
+    }
+    
+}
+
+extension NetworkViewController: MeshNetworkDelegate {
+    
+    func meshNetworkManager(_ manager: MeshNetworkManager,
+                            didReceiveMessage message: MeshMessage,
+                            sentFrom source: Address, to destination: Address) {
+        switch message {
+            
+        case is ConfigNodeReset:
+            // The node has been reset remotely.
+            (UIApplication.shared.delegate as! AppDelegate).meshNetworkDidChange()
+            reloadData()
+            presentAlert(title: "Reset", message: "The mesh network was reset remotely.")
+            
+        default:
+            break
+        }
+    }
+    
+}
