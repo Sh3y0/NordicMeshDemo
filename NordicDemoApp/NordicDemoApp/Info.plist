@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>This app uses your Bluetooth radio to be able to communicate with your mesh network and/or mesh nodes,  The app does not collect, store or log any of the data being communicated over Bluetooth.</string>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>This app uses your Bluetooth radio to be able to communicate with your mesh network and/or mesh nodes,  The app does not collect, store or log any of the data being communicated over Bluetooth.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

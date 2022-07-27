@@ -20,7 +20,7 @@ class NodeViewCell: UITableViewCell {
     
     var node: Node! {
         didSet {
-            nodeName.text = node.name ?? "Unknown Device"
+             nodeName.text = node.name ?? "Unknown Device"
             address.text = node.unicastAddress.asString()
             elements.text = "\(node.elements.count)"
             

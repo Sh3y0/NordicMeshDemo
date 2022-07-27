@@ -41,7 +41,7 @@
             </objects>
             <point key="canvasLocation" x="742" y="-823"/>
         </scene>
-        <!--Network-->
+        <!--Title-->
         <scene sceneID="EMt-dz-PPs">
             <objects>
                 <tableViewController id="bMt-um-aJc" customClass="NetworkViewController" customModule="NordicDemoApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -180,9 +180,14 @@
                             <outlet property="delegate" destination="bMt-um-aJc" id="dS0-io-Vof"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Network" id="pyq-bl-CS3"/>
+                    <navigationItem key="navigationItem" title="Title" id="cjz-iq-3QO">
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="fBq-DH-Oxp">
+                            <connections>
+                                <segue destination="9aw-E3-BYd" kind="presentation" identifier="provision" id="45U-cc-3VZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <segue destination="9aw-E3-BYd" kind="presentation" identifier="provision" id="X6F-SD-MkN"/>
                         <segue destination="Qbb-KM-TWx" kind="push" identifier="configure" id="rud-4G-1PX"/>
                     </connections>
                 </tableViewController>
@@ -260,6 +265,7 @@
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="network" catalog="system" width="128" height="121"/>
         <image name="network.badge.shield.half.filled" catalog="system" width="128" height="118"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
