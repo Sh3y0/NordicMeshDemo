@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -153,7 +153,6 @@
 		52E54CE72345EDA700478F05 /* GenericState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E54CE62345EDA700478F05 /* GenericState.swift */; };
 		52F6AD6C22B78F3000F0D7DF /* CompositionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6AD6B22B78F3000F0D7DF /* CompositionData.swift */; };
 		52F6AD7622BA612900F0D7DF /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6AD7522BA612900F0D7DF /* UIViewController+Toast.swift */; };
-		533E614E70E374998AF4E459 /* Pods_nRFMeshProvision_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A082D10B6402BD7459F34AF /* Pods_nRFMeshProvision_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -162,7 +161,7 @@
 		A7A59BD92773218C0045A8ED /* GenericPowerOnOffClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A59BD82773218C0045A8ED /* GenericPowerOnOffClientDelegate.swift */; };
 		A7B526A7277B210000F5C60D /* GenericPowerOnOffSetupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B526A5277B210000F5C60D /* GenericPowerOnOffSetupViewCell.swift */; };
 		A7B526A8277B210000F5C60D /* GenericPowerOnOffSetup.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B526A6277B210000F5C60D /* GenericPowerOnOffSetup.xib */; };
-		D484C4C6036F7130DAF9210C /* Pods_nRFMeshProvision_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082BD0C5AF731FACD704C290 /* Pods_nRFMeshProvision_Tests.framework */; };
+		C4A9B1892892ED9100883ADF /* NordicMesh in Frameworks */ = {isa = PBXBuildFile; productRef = C4A9B1882892ED9100883ADF /* NordicMesh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,8 +175,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082BD0C5AF731FACD704C290 /* Pods_nRFMeshProvision_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nRFMeshProvision_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19E43D046A5D53A99450BB33 /* Pods-nRFMeshProvision_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRFMeshProvision_Tests.debug.xcconfig"; path = "Target Support Files/Pods-nRFMeshProvision_Tests/Pods-nRFMeshProvision_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3089BC9F2099CA4900E30192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4973E9CDA09CE2398E5C269A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		520A7D6624F3E05A00BF370A /* RightActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightActionCell.swift; sourceTree = "<group>"; };
@@ -327,7 +324,6 @@
 		52E54CE62345EDA700478F05 /* GenericState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericState.swift; sourceTree = "<group>"; };
 		52F6AD6B22B78F3000F0D7DF /* CompositionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionData.swift; sourceTree = "<group>"; };
 		52F6AD7522BA612900F0D7DF /* UIViewController+Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+Toast.swift"; path = "Utils/UIViewController+Toast.swift"; sourceTree = "<group>"; };
-		5A082D10B6402BD7459F34AF /* Pods_nRFMeshProvision_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nRFMeshProvision_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* nRFMeshProvision_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nRFMeshProvision_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -335,8 +331,6 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* nRFMeshProvision_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nRFMeshProvision_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BA6080D6D64DF472887CC10 /* Pods-nRFMeshProvision_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRFMeshProvision_Tests.release.xcconfig"; path = "Target Support Files/Pods-nRFMeshProvision_Tests/Pods-nRFMeshProvision_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		95314CBBCE25A1396EF93139 /* Pods-nRFMeshProvision_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRFMeshProvision_Example.release.xcconfig"; path = "Target Support Files/Pods-nRFMeshProvision_Example/Pods-nRFMeshProvision_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A7A59BD4277225A70045A8ED /* GenericPowerOnOff.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenericPowerOnOff.xib; sourceTree = "<group>"; };
 		A7A59BD6277225E70045A8ED /* GenericPowerOnOffViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericPowerOnOffViewCell.swift; sourceTree = "<group>"; };
 		A7A59BD82773218C0045A8ED /* GenericPowerOnOffClientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPowerOnOffClientDelegate.swift; sourceTree = "<group>"; };
@@ -344,7 +338,6 @@
 		A7B526A6277B210000F5C60D /* GenericPowerOnOffSetup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenericPowerOnOffSetup.xib; sourceTree = "<group>"; };
 		C775BBAAAC42952ED786BABF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E7CB7DCE18F6E38D2240310F /* nRFMeshProvision.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = nRFMeshProvision.podspec; path = ../nRFMeshProvision.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EA733BBB45B56B4142103F0F /* Pods-nRFMeshProvision_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nRFMeshProvision_Example.debug.xcconfig"; path = "Target Support Files/Pods-nRFMeshProvision_Example/Pods-nRFMeshProvision_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,7 +345,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533E614E70E374998AF4E459 /* Pods_nRFMeshProvision_Example.framework in Frameworks */,
+				C4A9B1892892ED9100883ADF /* NordicMesh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,33 +353,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D484C4C6036F7130DAF9210C /* Pods_nRFMeshProvision_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BDD2CC9DBAB6E533CD162D4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A082D10B6402BD7459F34AF /* Pods_nRFMeshProvision_Example.framework */,
-				082BD0C5AF731FACD704C290 /* Pods_nRFMeshProvision_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3B91DB027C0AE9896666D139 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EA733BBB45B56B4142103F0F /* Pods-nRFMeshProvision_Example.debug.xcconfig */,
-				95314CBBCE25A1396EF93139 /* Pods-nRFMeshProvision_Example.release.xcconfig */,
-				19E43D046A5D53A99450BB33 /* Pods-nRFMeshProvision_Tests.debug.xcconfig */,
-				8BA6080D6D64DF472887CC10 /* Pods-nRFMeshProvision_Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		52121524231528400059FB3D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -723,8 +695,6 @@
 				607FACD21AFB9204008FA782 /* Example for nRFMeshProvision */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				3B91DB027C0AE9896666D139 /* Pods */,
-				0BDD2CC9DBAB6E533CD162D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -814,18 +784,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "nRFMeshProvision_Example" */;
 			buildPhases = (
-				4B59A58EEF71A4DB9C6A59AC /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				30AE40252064EFA800570136 /* ShellScript */,
-				0818DB5332F0273EF1AAE983 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = nRFMeshProvision_Example;
+			packageProductDependencies = (
+				C4A9B1882892ED9100883ADF /* NordicMesh */,
+			);
 			productName = nRFMeshProvision;
 			productReference = 607FACD01AFB9204008FA782 /* nRFMeshProvision_Example.app */;
 			productType = "com.apple.product-type.application";
@@ -892,6 +863,9 @@
 				Base,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
+			packageReferences = (
+				C4A9B1872892ED9100883ADF /* XCRemoteSwiftPackageReference "IOS-nRF-Mesh-Library" */,
+			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -939,24 +913,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0818DB5332F0273EF1AAE983 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nRFMeshProvision_Example/Pods-nRFMeshProvision_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nRFMeshProvision_Example/Pods-nRFMeshProvision_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		30AE40252064EFA800570136 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
@@ -968,29 +924,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    echo \"Run swiftlint\"\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		4B59A58EEF71A4DB9C6A59AC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-nRFMeshProvision_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "if which swiftlint >/dev/null; then\n    echo \"Run swiftlint\"\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		6C91532F96CE92DBE4E5284B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1367,7 +1301,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1375,7 +1310,6 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA733BBB45B56B4142103F0F /* Pods-nRFMeshProvision_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -1385,7 +1319,10 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = nRFMeshProvision/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				MARKETING_VERSION = 3.2.0;
@@ -1402,7 +1339,6 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95314CBBCE25A1396EF93139 /* Pods-nRFMeshProvision_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -1412,7 +1348,10 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = nRFMeshProvision/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				MARKETING_VERSION = 3.2.0;
@@ -1429,7 +1368,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19E43D046A5D53A99450BB33 /* Pods-nRFMeshProvision_Tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 347SS773T5;
@@ -1442,7 +1380,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1457,7 +1399,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BA6080D6D64DF472887CC10 /* Pods-nRFMeshProvision_Tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 347SS773T5;
@@ -1466,7 +1407,11 @@
 					"$(SDKROOT)/System/Library/Frameworks",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1509,6 +1454,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4A9B1872892ED9100883ADF /* XCRemoteSwiftPackageReference "IOS-nRF-Mesh-Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NordicSemiconductor/IOS-nRF-Mesh-Library";
+			requirement = {
+				kind = exactVersion;
+				version = 3.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C4A9B1882892ED9100883ADF /* NordicMesh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4A9B1872892ED9100883ADF /* XCRemoteSwiftPackageReference "IOS-nRF-Mesh-Library" */;
+			productName = NordicMesh;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
