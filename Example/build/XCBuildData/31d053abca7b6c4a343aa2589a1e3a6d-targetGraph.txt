@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+CryptoSwift in Pods, no dependencies
+nRFMeshProvision in Pods, depends on:
+CryptoSwift in Pods (explicit)
+Pods-nRFMeshProvision_Example in Pods, depends on:
+CryptoSwift in Pods (explicit)
+nRFMeshProvision in Pods (explicit)

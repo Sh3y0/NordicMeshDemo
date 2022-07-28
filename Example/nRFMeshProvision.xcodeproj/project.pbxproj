@@ -861,7 +861,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = P3R8YQEV4L;
+						DevelopmentTeam = 347SS773T5;
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -877,7 +877,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = P3R8YQEV4L;
+						DevelopmentTeam = 347SS773T5;
 						LastSwiftMigration = 1020;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -1381,7 +1381,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = nRFMeshProvision_Example.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = 347SS773T5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = nRFMeshProvision/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1391,7 +1391,7 @@
 				MARKETING_VERSION = 3.2.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nordicsemi.nRFProvisioner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysmartblinds.nRFProvisioner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
@@ -1408,7 +1408,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = nRFMeshProvision_Example.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = 347SS773T5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = nRFMeshProvision/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1418,7 +1418,7 @@
 				MARKETING_VERSION = 3.2.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nordicsemi.nRFProvisioner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysmartblinds.nRFProvisioner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
@@ -1432,7 +1432,7 @@
 			baseConfigurationReference = 19E43D046A5D53A99450BB33 /* Pods-nRFMeshProvision_Tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = 347SS773T5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/System/Library/Frameworks",
@@ -1460,7 +1460,7 @@
 			baseConfigurationReference = 8BA6080D6D64DF472887CC10 /* Pods-nRFMeshProvision_Tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = 347SS773T5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/System/Library/Frameworks",

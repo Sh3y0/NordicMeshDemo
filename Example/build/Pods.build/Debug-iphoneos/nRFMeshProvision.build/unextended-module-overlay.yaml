@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/josegomez/Documents/Ravn/SmarterHome/library/IOS-nRF-Mesh-Library/Example/build/Debug-iphoneos/nRFMeshProvision/nRFMeshProvision.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/josegomez/Documents/Ravn/SmarterHome/library/IOS-nRF-Mesh-Library/Example/build/Pods.build/Debug-iphoneos/nRFMeshProvision.build/unextended-module.modulemap",
+    }]
+  }]
+}
